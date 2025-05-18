@@ -65,12 +65,14 @@ export function AsyncCard() {
                             opacity-90 translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-98 md:group-hover:translate-y-0
                             transition-all duration-500 flex flex-col justify-center items-start text-justify z-20"
                         >
+                            <h2 className="font-bold text-lg mb-2">Nome: {movie.title}</h2>
                             <span className="font-bold text-lg mb-2">Sinopse:</span>
-                            <p className="text-sm leading-relaxed">{movie.overview}</p>
+                            <p className="text-xs leading-relaxed">{movie.overview}</p>
                         </div>
                     </motion.div>
                 ))
-            )}
-        </div>
+            )
+            }
+        </div >
     );
 }
