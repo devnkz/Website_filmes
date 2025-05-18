@@ -32,7 +32,7 @@ export default function TelaPrincipal() {
                 </div>
             </div>
             <main className='w-full lg:max-w-[1200px] xl:max-w-[1900px] flex flex-col justify-center items-center border-t-2 border-red-600'>
-                <h2 className="text-center font-extrabold text-2xl md:text-4xl py-10 text-red-600 drop-shadow-lg">
+                <h2 className="text-center font-extrabold text-2xl md:text-4xl py-10 px-4 text-red-600 drop-shadow-lg">
                     Confira os Filmes Mais Recentes!
                 </h2>
                 <AsyncCard />
