@@ -19,13 +19,14 @@ export default function TelaPrincipal() {
                 <div
                     className="absolute bottom-0 left-0 w-full h-full pointer-events-none"
                     style={{
-                        background: "linear-gradient(to top, rgba(0,0,0,0.8) 90%, rgba(0,0,0,0) 100%)",
+                        background: "linear-gradient(to top, rgba(0,0,0,0.8) 100%, rgba(0,0,0,0) 100%)",
                         backdropFilter: "blur(2px)",
                     }}>
                 </div>
                 <div className="w-full lg:max-w-[1200px] xl:max-w-[1900px] h-full flex flex-col justify-center items-center gap-4">
-                    <h1 className="text-3xl md:text-6xl z-50">Últimos <span className='font-bold text-red-600'>Lançamentos</span></h1>
-                    <p className='text-sm md:text-base z-50 w-3/4 text-justify'>Bem-vindo ao seu espaço para ficar por dentro dos filmes mais recentes! Este site foi feito para quem quer se atualizar de forma rápida e prática.
+                    <h1 className="text-3xl md:text-6xl z-50">ÚLTIMOS <span className='font-bold text-red-600'>LANÇAMENTOS</span></h1>
+                    <p className='text-sm md:text-base z-50 w-3/4 text-justify leading-relaxed'>
+                        Bem-vindo ao seu espaço para ficar por dentro dos filmes mais recentes! Este site foi feito para quem quer se atualizar de forma rápida e prática.
                         Aqui, você encontra apenas o que realmente importa: o nome do filme, sua nota/avaliação e uma sinopse breve para entender do que se trata.
                         Sem trailers, sem propagandas, sem distrações — apenas as informações essenciais para você escolher o próximo filme com facilidade.
                     </p>
