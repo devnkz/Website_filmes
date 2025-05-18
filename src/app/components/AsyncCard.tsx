@@ -34,8 +34,7 @@ export function AsyncCard() {
               hover:shadow-xl shadow-zinc-700 transition-all duration-500 relative overflow-hidden 
               md:hover:-translate-y-3 group"
                         onClick={() => {
-                            // só ativa no mobile
-                            if (window.innerWidth < 768) {
+                            if (typeof window !== "undefined" && window.innerWidth < 768) {
                                 setOpenCardId(prev => (prev === movie.id ? null : movie.id));
                             }
                         }}
