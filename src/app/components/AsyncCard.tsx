@@ -49,9 +49,9 @@ export function AsyncCard() {
                     <p className="font-bold text-xl text-green-600 z-10">Nota: {movie.vote_average}</p>
 
                     <div className="absolute inset-0 bg-black bg-opacity-80 backdrop-blur-sm text-white p-4
-               opacity-0 translate-y-full group-hover:opacity-90 group-hover:translate-y-0
-               transition-all duration-500 flex flex-col justify-center items-start text-justify z-20"
-                    >
+                            opacity-90 translate-y-0 md:opacity-0 md:translate-y-full md:group-hover:opacity-90 md:group-hover:translate-y-0
+                            transition-all duration-500 flex flex-col justify-center items-start text-justify z-20">
+
                         <span className="font-bold text-lg mb-2">Sinopse:</span>
                         <p className="text-sm">{movie.overview}</p>
                     </div>
